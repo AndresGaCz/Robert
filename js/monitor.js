@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     // URL de tu API
-    const API_URL = 'http://54.12.34.56:5000';
+    const API_URL = 'http://67.202.26.61:5000';
 
     const roverCurrentCommand = document.getElementById("rover-current-command");
     const commandHistoryList = document.getElementById("command-history");
@@ -95,4 +95,5 @@ obstacleControls.addEventListener('click', async (e) => {
 
     // Configurar un intervalo para actualizar el monitoreo periódicamente
     setInterval(updateMonitorUI, 2000); // Actualiza cada 2 segundos
+
 });
