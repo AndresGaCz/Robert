@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     // URL de tu API
-    const API_URL = 'http://54.12.34.56:5000';
+    const API_URL = 'http://67.202.26.61:5000';
 
     // --- Elementos de "Crear Demo" ---
     const demoNombreInput = document.getElementById("demo-nombre-input");
@@ -172,4 +172,5 @@ document.addEventListener("DOMContentLoaded", () => {
     // --- INICIALIZACIÓN ---
     loadDemos(); // Carga las demos existentes al abrir la página
     updateSequenceList(); // Prepara la lista de secuencia (vacía)
+
 });
