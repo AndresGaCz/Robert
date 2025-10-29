@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     // URL de tu API (ajústala si tu API no corre en localhost:5000)
-    const API_URL = 'http://54.12.34.56:5000'; // Asegúrate que esta URL sea correcta
+    const API_URL = 'http://67.202.26.61:5000'; // Asegúrate que esta URL sea correcta
 
     const allButtons = document.querySelectorAll(".control-button");
     const lastCommandDisplay = document.getElementById("last-command-display");
@@ -57,4 +57,5 @@ document.addEventListener("DOMContentLoaded", () => {
             handleCommand(command);
         });
     });
+
 });
